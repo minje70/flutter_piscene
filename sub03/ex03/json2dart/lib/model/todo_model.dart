@@ -66,6 +66,9 @@ class _FetchDataState extends State<FetchData> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
+                            SizedBox(
+                              width: 500,
+                            ),
                             Text('title : ${post.title}'),
                             Text('userId : ${post.userId}'),
                             Text('id : ${post.id}'),
